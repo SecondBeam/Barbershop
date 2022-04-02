@@ -524,9 +524,73 @@ h3 {
 	transform: rotate(-45deg);
 }
 
+.prod_sort .remember {
+	padding-left: 43px;
+	margin: 0px;
+	margin-bottom: 12px;
+}
+
+.prod_sort .remember input[type="checkbox"] + .checkbox-indicator {
+	top: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+.prod_sort .remember input[type="checkbox"]:checked + .checkbox-indicator::before,
+.prod_sort .remember input[type="checkbox"]:checked + .checkbox-indicator::after {
+	width: 12px;
+	top: 6px;
+	right:2px;
+}
+
+.prod_sort h2 {
+	line-height: 20px;
+	margin: 0px;
+	margin-bottom: 30px;
+}
+
+.prod_sort h2:not(:first-child) {
+	margin-top: 55px;
+}
+
+.group_prod {
+	position: relative;
+	padding-left: 43px;
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+.group_prod:hover {
+	color:#663d15;
+}
+
+.group_prod input[type="radio"] + .checkbox-indicator {
+	position:absolute;
+	top: 3px;
+	left: 0px;
+	width: 20px;
+	height: 20px;
+	border: 2px solid black;
+	border-radius: 100%;
+}
+
+.group_prod input[type="radio"]:checked + .checkbox-indicator::before {
+	content: "";
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	border: 4px solid black;
+	border-radius: 100%;
+}
+
+.prod_sort .btn {
+	width: 110px;
+	margin-top: 45px;
+}
+
 .modal-login a {
 	color:#000000;
-	text-decoration: underline;    
+	text-decoration: underline;
 }
 
 .modal-login .btn {
@@ -654,6 +718,7 @@ h3 {
 
 .prod_sort {
 	width: 280px;
+	padding-right: 20px;
 }
 
 .prod_sale {
@@ -663,26 +728,27 @@ h3 {
 	gap: 20px;
 }
 
-.prod_cart {
+.prod_card {
 	width: 220px;
 	height: 286px;
 	text-transform: none;
+	background-color: white;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	padding:0px;
+	padding: 0px;
 }
 
-.prod_cart p,
-.prod_cart q {
+.prod_card p,
+.prod_card q {
 	padding:0px;
 	margin:0px;
 	padding-top: 0px;
-	padding-left: 20px;
+	padding-left: 18px;
 	line-height: 16px;
 }
 
-.prod_cart .prix_buy{
+.prod_card .prix_buy{
 	justify-content: center;
-	padding-left: 20px;
+	padding-left: 18px;
 	margin-top: 10px;
 }
 

@@ -38,24 +38,69 @@
 		<div class="index-columns">
 			<section class="prod_sort">
 				<form method="get" action="#">
-					<h3>Производители</h3>
-					<p><input type="checkbox" name="made" value="Baxter_of_California" checked>Baxter of California</input></p>
-					<p><input type="checkbox" name="made" value="Mr_Natty">Mr Natty</input></p>
-					<p><input type="checkbox" name="made" value="Suavecito" checked>Suavecito</input></p>
-					<p><input type="checkbox" name="made" value="Malin+Goetz">Malin+Goetz</input></p>
-					<p><input type="checkbox" name="made" value="Murray's">Murray's</input></p>
-					<p><input type="checkbox" name="made" value="American_Crew" checked>American Crew</input></p>
-					<h3>Группы товаров</h3>
-					<p><input type="radio" name="group_product" value="Shaving_access">Бритвенные принадлежности</input></p>
-					<p><input type="radio" name="group_product" value="Care_products" checked>Средства для ухода</input></p>
-					<p><input type="radio" name="group_product" value="Accessories">Аксессуары</input></p>
+					<h2>Производители:</h2>
+					<p class="remember">
+					<label>
+						<input type="checkbox" class="visualy-hidden" name="made" value="Baxter_of_California" checked>Baxter of California
+						<span class="checkbox-indicator"></span>
+					</label>
+					</p>
+					<p class="remember">
+					<label>
+						<input type="checkbox" class="visualy-hidden" name="made" value="Mr_Natty">Mr Natty
+						<span class="checkbox-indicator"></span>
+					</label>
+					</p>
+					<p class="remember">
+					<label>
+						<input type="checkbox" class="visualy-hidden" name="made" value="Suavecito" checked>Suavecito
+						<span class="checkbox-indicator"></span>
+					</label>
+					</p>
+					<p class="remember">
+					<label>
+						<input type="checkbox" class="visualy-hidden" name="made" value="Malin+Goetz">Malin+Goetz
+						<span class="checkbox-indicator"></span>
+					</label>
+					</p>
+					<p class="remember">
+					<label>
+						<input type="checkbox" class="visualy-hidden" name="made" value="Murray's">Murray's
+						<span class="checkbox-indicator"></span>
+					</label>
+					</p>
+					<p class="remember">
+					<label>
+						<input type="checkbox" class="visualy-hidden" name="made" value="American_Crew" checked>American Crew
+						<span class="checkbox-indicator"></span>
+					</label>
+					</p>
+					<h2>Группы товаров:</h2>
+					<p class="group_prod">
+					<label>
+						<input type="radio" class="visualy-hidden" name="group_product" value="Shaving_access">Бритвенные принадлежности
+						<span class="checkbox-indicator"></span>
+					</label>	
+					</p>
+					<p class="group_prod">
+					<label>
+						<input type="radio" class="visualy-hidden" name="group_product" value="Care_products" checked>Средства для ухода
+						<span class="checkbox-indicator"></span>
+					</label>
+					</p>
+					<p class="group_prod">
+					<label>
+						<input type="radio" class="visualy-hidden" name="group_product" value="Accessories">Аксессуары
+						<span class="checkbox-indicator"></span>
+					</label>
+					</p>
 					<button class="btn" type="submit" value="">Показать</button>
 				</form>
 			</section>
 			<section class="prod_sale">
-				<div class="prod_cart">
+				<div class="prod_card">
 					<a href="item.html">
-						<img src="img/Baxter_kit_of_travel.png">
+						<img src="img/Baxter_kit_of_travel.jpg" alt="Набор для путешествий Baxter of California">
 						<p>Набор для путешествий</p>
 						<q>Baxter of California</q>
 					</a>
@@ -64,8 +109,8 @@
 						<button type="button" class="btn buy">Купить</button>
 					</div>
 				</div>
-				<div class="prod_cart">
-					<img src="img/Baxter_conditioner.png">
+				<div class="prod_card">
+					<img src="img/Baxter_conditioner.jpg" alt="Увлажняющий кондиционер Baxter of California">
 					<p>Увлажняющий кондиционер</p>
 					<q>Baxter of California</q>
 					<div class="prix_buy">
@@ -73,8 +118,8 @@
 						<button type="button" class="btn buy">Купить</button>
 					</div>
 				</div>
-				<div class="prod_cart">
-					<img src="img/Suavecito_gel_of_hair.png">
+				<div class="prod_card">
+					<img src="img/Suavecito_gel_of_hair.jpg" alt="Гель для волос Suavecito">
 					<p>Гель для волос</p>
 					<q>Suavecito</q>
 					<div class="prix_buy">
@@ -82,8 +127,8 @@
 						<button type="button" class="btn buy">Купить</button>
 					</div>
 				</div>
-				<div class="prod_cart">
-					<img src="img/American_crew_clay_of_hair.png">
+				<div class="prod_card">
+					<img src="img/American_crew_clay_of_hair.jpg" alt="Глина для укладки волос American Crew">
 					<p>Глина для укладки волос</p>
 					<q>American Crew</q>
 					<div class="prix_buy">
@@ -91,17 +136,17 @@
 						<button type="button" class="btn buy">Купить</button>
 					</div>
 				</div>
-				<div class="prod_cart">
-					<img src="img/American_crew_gel_of_hair.png">
-					<p>Гуль для волос</p>
+				<div class="prod_card">
+					<img src="img/American_crew_gel_of_hair.jpg" alt="Гель для волос American Crew">
+					<p>Гель для волос</p>
 					<q>American Crew</q>
 					<div class="prix_buy">
 						<span class="prix">300</span>
 						<button type="button" class="btn buy">Купить</button>
 					</div>
 				</div>
-				<div class="prod_cart">
-					<img src="img/Baxter_shaving.png">
+				<div class="prod_card">
+					<img src="img/Baxter_shaving.jpg" alt="Набор для бритья Baxter of California">
 					<p>Набор для бритья</p>
 					<q>Baxter of California</q>
 					<div class="prix_buy">
