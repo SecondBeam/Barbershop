@@ -1,2 +1,2 @@
 # Barbershop
-Site Barbershop for Flex
+Site Barbershop for flex
