@@ -312,6 +312,8 @@ h3 {
 	flex-direction: column;
 }
 
+
+
 .appointment .btn {
 	width: 300px;
 	height: 44px;
@@ -327,8 +329,12 @@ h3 {
 	height: 44px;
 }
 
-.appointment input:focus {
-	border-color: #663d15;
+.appointment input[type="date"]:hover,
+.appointment input[type="datetime"]:hover,
+.appointment input[type="text"]:hover,
+.appointment input[type="tel"]:hover {
+	border: 2px solid #663d15;
+	border-radius: none;
 }
 
 .main-footer {
@@ -737,6 +743,15 @@ h3 {
 	padding: 0px;
 }
 
+.prod_card a{
+	color: black;
+}
+
+.prod_card a:hover,
+.prod_card a:active {
+	color:#663d15;
+}
+
 .prod_card p,
 .prod_card q {
 	padding:0px;
@@ -756,6 +771,15 @@ h3 {
 	display: flex;
 	gap: 10px;
 	margin-top: 20px;
+}
+
+.prod_sale_number .btn:not(.number_choice):hover{
+	filter: none;
+	background-color: #663d15;
+}
+
+.number_choice {
+	filter: invert(1);
 }
 
 q {
