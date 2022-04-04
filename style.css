@@ -617,7 +617,7 @@ h3 {
 
 .here {
 	padding-bottom: 21px;
-	border-bottom: 4px solid white;    
+	border-bottom: 4px solid white;
 }
 
 .prix_buy {
@@ -812,4 +812,8 @@ q {
 .description .prix_buy{
 	margin-top: 40px;
 	margin-bottom: 65px;
+}
+
+.modal-show {
+	display: block;
 }
