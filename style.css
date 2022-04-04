@@ -438,6 +438,13 @@ h3 {
 	transform: rotate(-45deg);
 }
 
+.modal-close:hover::before,
+.modal-close:hover::after,
+.modal-close:focus::before,
+.modal-close:focus::after {
+	background-color: #000000;
+}
+
 .modal-login {
 	display: none;
 	width: 456px;
