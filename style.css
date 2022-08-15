@@ -6,11 +6,6 @@ body {
 	max-width: 2560px;
 	padding: 0;
 	margin: 0 auto;
-	@font-face {
-		font-family: "PT Sans Narrow", Arial, sans-serif;;
-		src: url("/fonts/web/ptsansnarrow.woff") format("woff"),
-				url("/fonts/web/ptsansnarrowbold.woff") format("woff");
-	}
 	font-family: "PT Sans Narrow", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 24px;
